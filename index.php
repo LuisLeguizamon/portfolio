@@ -3,11 +3,12 @@
 <html lang="en">
 
 <head>
+    <title>Portfolio - Luis Leguizamón</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Luis Leguizamón</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -26,14 +27,22 @@
     <!-- Tech Stack -->
     <div class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
-            <h3>Tech Stack</h3>
-            <p>
-                <?php foreach ($techStack as $stack) { ?>
-                    <span class="bg-primary-subtle px-2 py-1 text-primary-emphasis mx-2 rounded-pill">
+            <h3>Main Tech Stack</h3>
+            <div class="stack-row">
+                <?php foreach ($techStack as $key => $stack) { ?>
+                    <!-- <span class="bg-primary-subtle px-2 py-1 text-primary-emphasis mx-2 rounded-pill"> -->
+                    <div class="stack-icon-box">
                         <?php echo $stack ?>
-                    </span>
+                        <?php echo $key ?>
+                    </div>
                 <?php } ?>
-            </p>
+            </div>
+            <p class="text-uppercase text-secondary mt-5">Tools and other technologies</p>
+            <div>
+                <?php foreach ($tools as $tool) { ?>
+                    <?php echo $tool;?> |
+                <?php } ?>
+            </div>
         </div>
     </div>
 

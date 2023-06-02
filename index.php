@@ -12,8 +12,31 @@
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#tech-stack">Tech Stack</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#works">Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- Presentation -->
-    <div class="container my-5">
+    <div id="home" class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
             <h1>Luis Leguizamón</h1>
             <p class="text-uppercase text-secondary">Full Stack Developer</p>
@@ -23,7 +46,7 @@
     </div>
 
     <!-- Tech Stack -->
-    <div class="container my-5">
+    <div id="tech-stack" class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
             <h3>Main Tech Stack</h3>
             <div class="stack-row">
@@ -45,7 +68,7 @@
     </div>
 
     <!-- Works -->
-    <div class="container my-5">
+    <div id="works" class="container my-5">
         <div class="p-4 text-center bg-body-tertiary rounded-3">
             <h3>Featured Works</h3>
 

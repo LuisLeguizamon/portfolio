@@ -1,5 +1,5 @@
 .bg-presentation{
-    background-image: url('img/presentation2.jpg');
+    background-image: url('/img/presentation2.jpg');
     background-size: cover;
     height: 100vh;
 }

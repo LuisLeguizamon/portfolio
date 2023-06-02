@@ -77,11 +77,11 @@
     <div id="contact" class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
             <h3>Contact Me</h3>
-            <a href="mailto:lleguizamonl@gmail.com">lleguizamonl@gmail.com</a>
+            <a class="link-underline link-underline-opacity-0">lleguizamonl@gmail.com</a>
             <br>
-            <a href="https://www.linkedin.com/in/luis-leguizamonl/">Linkedin</a>
+            <a class="link-underline link-underline-opacity-0" href="https://www.linkedin.com/in/luis-leguizamonl/">Linkedin</a>
             <br>
-            <a href="https://github.com/luisleguizamon">Github</a>
+            <a class="link-underline link-underline-opacity-0" href="https://github.com/luisleguizamon">Github</a>
         </div>
     </div>
 </body>

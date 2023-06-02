@@ -9,66 +9,76 @@
 </head>
 <body>
     <!-- Presentation -->
-    <div class="container my-2">
-        <div class="p-5 text-center">
+    <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
             <h1>Luis Leguizamón</h1>
-            <h2>Full Stack Developer</h2>
-            <a href="#contact" class="btn btn-outline-secondary rounded-pill">Contact</a>
+            <p class="text-uppercase text-secondary">Full Stack Developer</p>
+            <p>Electronic Engineer working in Software Area for more than 4 years</p>
+            <a href="#contact" class="btn btn-primary rounded-pill">Contact</a>
         </div>
     </div>
 
+    <div class="b-example-divider"></div>
+
     <!-- Tech Stack -->
-    <div class="container">
-        <div class="p-5 text-center">
-            <h2>Tech Stack</h2>
-            <h2>PHP | Laravel | Vue JS | Javascript</h2>
+    <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <h3>Tech Stack</h3>
+            <p>
+                <span class="bg-primary-subtle px-2 py-1 text-primary-emphasis mx-2 rounded-pill">Laravel</span>
+                <span class="bg-primary-subtle px-2 py-1 text-primary-emphasis mx-2 rounded-pill">Vue JS</span>
+                <span class="bg-primary-subtle px-2 py-1 text-primary-emphasis mx-2 rounded-pill">PHP</span>
+                <span class="bg-primary-subtle px-2 py-1 text-primary-emphasis mx-2 rounded-pill">JavaScript</span>
+            </p>
         </div>
     </div>
 
     <!-- Works -->
-    <div class="container">
-        <div class="p-5 text-center">
-            <h2>Works</h2>
-            <h2 class="mt-2">Open Source Projects</h2>
+    <div class="container my-5">
+        <div class="p-4 text-center bg-body-tertiary rounded-3">
+            <h3>Featured Works</h3>
+            <p class="text-uppercase text-secondary mt-3">Open Source Projects</p>
             <ul class="list-group">
                 <li class="list-group-item">
-                    <a href="https://taskmanager.zentcode.com/">Task Manager</a>
+                    <a class="link-underline link-underline-opacity-0" href="https://taskmanager.zentcode.com/">Task Manager</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://courses.zentcode.com/">Video Courses</a>
+                    <a class="link-underline link-underline-opacity-0" href="https://courses.zentcode.com/">Video Courses</a>
                 </li>
                 <li class="list-group-item">
-                    <a href="https://github.com/zentcodepy/mailgun-logs-by-domain">Mailgun Logs</a>
+                    <a class="link-underline link-underline-opacity-0" href="https://github.com/zentcodepy/mailgun-logs-by-domain">Mailgun Logs</a>
                 </li>
             </ul>
-            <h2 class="mt-3">Commercial Projects</h2>
+            <p class="text-uppercase text-secondary mt-5">Commercial Projects</p>
             <ul class="list-group">
                 <li class="list-group-item">
-                    SASS ERP
+                    Gym Management and integration with facial detection access system
                 </li>
                 <li class="list-group-item">
-                    Land Managment
-                </li>
-                <li class="list-group-item">
-                    GYM Manager and integrations
+                    Shopping mall mobile App
                 </li>
                 <li class="list-group-item">
                     Request for Quotation (RFQ)
                 </li>
                 <li class="list-group-item">
-                    Shopping mall mobile App
+                    Land Management
+                </li>
+                <li class="list-group-item">
+                    ERP SASS
                 </li>
             </ul>
         </div>
     </div>
 
     <!-- Contact -->
-    <div id="contact" class="container">
-        <div class="p-5 text-center">
-            <h2>Contact</h2>
+    <div id="contact" class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <h3>Contact Me</h3>
+            <a href="mailto:lleguizamonl@gmail.com">lleguizamonl@gmail.com</a>
+            <br>
             <a href="https://www.linkedin.com/in/luis-leguizamonl/">Linkedin</a>
             <br>
-            <a href="mailto:lleguizamonl@gmail.com">lleguizamonl@gmail.com</a>
+            <a href="https://github.com/luisleguizamon">Github</a>
         </div>
     </div>
 </body>

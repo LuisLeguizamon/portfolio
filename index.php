@@ -55,6 +55,9 @@
                     Gym Management and integration with facial detection access system
                 </li>
                 <li class="list-group-item">
+                    Web platform for gym trainers
+                </li>
+                <li class="list-group-item">
                     Shopping mall mobile App
                 </li>
                 <li class="list-group-item">

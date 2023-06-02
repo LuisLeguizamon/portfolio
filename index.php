@@ -22,8 +22,6 @@
         </div>
     </div>
 
-    <div class="b-example-divider"></div>
-
     <!-- Tech Stack -->
     <div class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">

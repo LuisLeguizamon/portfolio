@@ -7,7 +7,7 @@ $openSourceProjects = [
 
 $comercialProjects = [
     'Gym Management and integration with facial detection access system',
-    ' Web platform for gym trainers',
+    'Web platform for gym trainers',
     'Shopping mall mobile App',
     'Request for Quotation (RFQ)',
     'Land Management',

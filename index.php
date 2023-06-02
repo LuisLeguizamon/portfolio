@@ -38,12 +38,14 @@
     </nav>
 
     <!-- Presentation -->
-    <div id="home" class="container my-5">
-        <div class="p-5 text-center bg-body-tertiary rounded-3">
-            <h1>Luis Leguizamón</h1>
+    <div id="home" class="my-5 row">
+        <div class="col-md-6 px-5 text-left" style="margin-top:20vh">
+            <h1 class="fw-bold">Luis Leguizamón</h1>
             <p class="text-uppercase text-secondary">Full Stack Developer</p>
-            <p>Electronic Engineer working in Software Area for more than 4 years</p>
-            <a href="#contact" class="btn btn-primary rounded-pill">Contact</a>
+            <p>Full Stack Web Developer with +4 years of experience</p>
+            <a href="#contact" class="btn btn-primary rounded-pill">Contact Me</a>
+        </div>
+        <div class="col-md-6 text-center bg-presentation">
         </div>
     </div>
 

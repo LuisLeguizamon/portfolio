@@ -1,3 +1,14 @@
+.bg-presentation{
+    background-image: url('img/presentation2.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-presentation{
+        display: none;
+    }
+}
 .stack-icon-box{
     display: flex;
     flex-direction: column;

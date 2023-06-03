@@ -11,6 +11,9 @@
         padding-left: 5px;
     }
 }
+.navbar-scrolled{
+    background-color: rgba(248, 249, 250, 0.8);
+}
 /* Banner */
 .banner-left{
     margin-top: 20vh;

@@ -120,6 +120,7 @@
     </div>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>

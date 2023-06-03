@@ -27,7 +27,7 @@
                         <a class="nav-link" aria-current="page" href="#tech-stack">Tech Stack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#works">Works</a>
+                        <a class="nav-link" aria-current="page" href="#works">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#contact">Contact</a>
@@ -44,7 +44,7 @@
             <p class="text-secondary">Software Developer with +4 years of experience, specialize in web solutions.</p>
             <div class="mt-3">
                 <a href="#contact" class="banner-btn btn">Contact Me</a>
-                <a href="#works" class="banner-secondary-btn btn" style="margin-left:15px">Works</a>
+                <a href="#works" class="banner-secondary-btn btn" style="margin-left:15px">Projects</a>
             </div>
         </div>
         <div class="col-md-6 text-center banner-right">
@@ -76,7 +76,7 @@
     <!-- Works -->
     <div id="works" class="container my-5">
         <div class="p-4 text-center bg-body-tertiary rounded-3">
-            <h3>Featured Works</h3>
+            <h3>Featured Projects</h3>
 
             <p class="text-uppercase text-secondary mt-3">Open Source Projects</p>
             <ul class="list-group">

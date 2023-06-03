@@ -18,6 +18,7 @@
 .banner-right{
     background-image: url('/img/presentation2.jpg');
     background-size: cover;
+    border-radius: 0.5rem;
     height: 100vh;
 }
 

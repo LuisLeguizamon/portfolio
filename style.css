@@ -1,14 +1,22 @@
-.bg-presentation{
+/* Banner */
+.banner-left{
+    margin-top: 20vh;
+}
+.banner-right{
     background-image: url('/img/presentation2.jpg');
     background-size: cover;
     height: 100vh;
 }
 
 @media only screen and (max-width: 767px) {
-    .bg-presentation{
+    .banner-left{
+        margin-top:5vh;
+    }
+    .banner-right{
         display: none;
     }
 }
+/* Tech Stack */
 .stack-icon-box{
     display: flex;
     flex-direction: column;

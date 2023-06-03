@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css?v=1.0">
+    <link rel="stylesheet" href="style.css?v=1.1">
 </head>
 
 <body>
@@ -39,13 +39,13 @@
 
     <!-- Presentation -->
     <div id="home" class="my-5 row">
-        <div class="col-md-6 px-5 text-left" style="margin-top:20vh">
+        <div class="col-md-6 px-5 text-left banner-left">
             <h1 class="fw-bold">Luis Leguizamón</h1>
             <p class="text-uppercase text-secondary">Full Stack Developer</p>
             <p>Full Stack Web Developer with +4 years of experience</p>
             <a href="#contact" class="btn btn-primary rounded-pill">Contact Me</a>
         </div>
-        <div class="col-md-6 text-center bg-presentation">
+        <div class="col-md-6 text-center banner-right">
         </div>
     </div>
 

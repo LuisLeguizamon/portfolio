@@ -55,7 +55,7 @@
     <div id="tech-stack" class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
             <h3>Main Tech Stack</h3>
-            <div class="stack-row">
+            <div class="stack-row text-secondary">
                 <?php foreach ($techStack as $key => $stack) { ?>
                     <!-- <span class="bg-primary-subtle px-2 py-1 text-primary-emphasis mx-2 rounded-pill"> -->
                     <div class="stack-icon-box">
@@ -64,8 +64,8 @@
                     </div>
                 <?php } ?>
             </div>
-            <p class="text-uppercase text-secondary mt-5">Tools and other technologies</p>
-            <div>
+            <h5 class="mt-5">Tools and other technologies</h5>
+            <div class="text-secondary">
                 <?php foreach ($tools as $tool) { ?>
                     <?php echo $tool;?> |
                 <?php } ?>
@@ -78,7 +78,7 @@
         <div class="p-4 text-center bg-body-tertiary rounded-3">
             <h3>Featured Projects</h3>
 
-            <p class="text-uppercase text-secondary mt-3">Open Source Projects</p>
+            <h5 class="mt-3">Open Source Projects</h5>
             <ul class="list-group">
                 <?php foreach ($openSourceProjects as $key => $project) { ?>
                     <li class="list-group-item">
@@ -88,10 +88,10 @@
                     </li>
                 <?php } ?>
             </ul>
-            <p class="text-uppercase text-secondary mt-5">Commercial Projects</p>
+            <h5 class="mt-5">Commercial Projects</h5>
             <ul class="list-group">
                 <?php foreach ($comercialProjects as $key => $project) { ?>
-                    <li class="list-group-item">
+                    <li class="list-group-item text-secondary">
                         <?php echo $project ?>
                     </li>
                 <?php } ?>

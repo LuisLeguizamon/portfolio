@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Portfolio - Luis LeguizamÃ³n</title>
+    <title>Portfolio - Luis Leguizamón</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border:none">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,7 +40,7 @@
     <!-- Presentation -->
     <div id="home" class="my-5 row">
         <div class="col-md-6 px-5 text-left banner-left">
-            <h1 class="fw-bold" style="font-size:3.5rem">Luis LeguizamÃ³n</h1>
+            <h1 class="fw-bold" style="font-size:3.5rem">Luis Leguizamón</h1>
             <p class="text-secondary">Software Developer with +4 years of experience, specialize in web solutions.</p>
             <div class="mt-3">
                 <a href="#contact" class="banner-btn btn">Contact Me</a>

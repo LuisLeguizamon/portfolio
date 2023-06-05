@@ -128,7 +128,7 @@
     </div>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="script/script.js"></script>
+    <script src="script/script.js?v=1.0"></script>
 </body>
 
 </html>

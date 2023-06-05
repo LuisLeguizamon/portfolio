@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <!-- Spinner -->
+    <section class="spinner-custom container" id="spinnerSection">
+        <div class="spinner-border"></div>
+    </section>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
         <div class="container">

@@ -67,6 +67,14 @@
         display: none;
     }
 }
+/* Spinner */
+.spinner-custom {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+}
 /* Tech Stack */
 .stack-icon-box{
     display: flex;

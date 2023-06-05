@@ -1,5 +1,4 @@
 let navbar = document.getElementById("navbarSupportedContent");
-console.log(navbar)
 window.onscroll = function (event) {
     if (window.scrollY > 0) {
         navbar.classList.add('navbar-scrolled')
@@ -7,3 +6,8 @@ window.onscroll = function (event) {
         navbar.classList.remove('navbar-scrolled');
     }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    let spinnerSection = document.getElementById("spinnerSection");
+    spinnerSection.remove();
+})

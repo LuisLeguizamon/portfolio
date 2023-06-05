@@ -10,4 +10,15 @@ window.onscroll = function (event) {
 document.addEventListener("DOMContentLoaded", () => {
     let spinnerSection = document.getElementById("spinnerSection");
     spinnerSection.remove();
+
+    let bannerImg = document.getElementById("bannerImg");
+    let opacity = 0;
+    let fadeIn = setInterval(() => {
+    bannerImg.style.opacity = opacity;
+      opacity += 0.01;
+    }, 10);
+
+    if (opacity >= 1) {
+      clearInterval(fadeIn);
+    }
 })

@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css?v=1.3">
+    <link rel="stylesheet" href="style.css?v=2.0">
 </head>
 
 <body>
@@ -52,7 +52,7 @@
                 <a href="#works" class="banner-secondary-btn btn" style="margin-left:15px">Projects</a>
             </div>
         </div>
-        <div class="col-md-6 text-center banner-right">
+        <div class="col-md-6 text-center banner-right" id="bannerImg">
         </div>
     </div>
 

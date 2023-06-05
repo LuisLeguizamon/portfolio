@@ -23,6 +23,10 @@
 .navbar-scrolled{
     background-color: rgba(248, 249, 250, 0.8);
 }
+.navbar-toggler{
+    border: none;
+    color: transparent;
+}
 /* Banner */
 .banner-btn{
     background-color: black;

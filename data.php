@@ -6,12 +6,19 @@ $openSourceProjects = [
 ];
 
 $comercialProjects = [
-    'Gym Management and integration with facial detection access system',
-    'Web platform for gym trainers',
-    'Shopping mall mobile App',
-    'Request for Quotation (RFQ)',
+    'Billing System for a Sport Facility',
+    'Claims Management System',
+    'ERP SaaS',
+    'Gym Management',
+    'Integration with Facial Detection Access System',
+    'Integration with Payment Gateway (Bancard)',
     'Land Management',
-    'ERP SASS'
+    'Real Estate Website',
+    'Request for Quotation (RFQ)',
+    'Shopping mall mobile App',
+    'Voucher System',
+    'Web platform for Gym Trainers',
+    'Webservice between a Billing System and Microsoft Dynamics 365',
 ];
 
 $techStack = [

@@ -118,6 +118,7 @@
                     Github
                 </a>
             </div>
+            <p class="text-secondary">Developed by <span class="text-dark">Luis Leguizamón</span></p>
         </div>
     </div>
 

@@ -40,7 +40,7 @@
     <!-- Presentation -->
     <div id="home" class="my-5 row">
         <div class="col-md-6 px-5 text-left banner-left">
-            <h1 class="fw-bold" style="font-size:3.5rem">Luis Leguizamon</h1>
+            <h1 class="fw-bold" style="font-size:3.5rem">Luis Leguizamón</h1>
             <p class="text-secondary">Software Developer with +4 years of experience, specialize in web solutions.</p>
             <div class="mt-3">
                 <a href="#contact" class="banner-btn btn">Contact Me</a>

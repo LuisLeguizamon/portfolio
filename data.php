@@ -32,15 +32,18 @@ $techStack = [
 $tools = [
     'Bash',
     'Bitbucket',
+    'Blade',
     'Bootstrap',
     'Composer',
     'CSS',
     'C#',
+    'Digital Ocean',
     'Forge',
     'Git',
     'Github',
     'jQuery',
     'HTML',
+    'Inertia JS',
     'Linux',
     'NPM',
     'NGINX',
@@ -50,6 +53,7 @@ $tools = [
     'SOLID',
     'Tailwind CSS',
     'Trello',
-    'Ubuntu'
+    'Ubuntu',
+    'Vultr'
 ];
 ?>

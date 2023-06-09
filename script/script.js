@@ -16,11 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let fadeIn = setInterval(() => {
     bannerImg.style.opacity = opacity;
       opacity += 0.01;
+      if (opacity >= 1) {
+        clearInterval(fadeIn);
+      }
     }, 10);
-
-    if (opacity >= 1) {
-      clearInterval(fadeIn);
-    }
 });
 
 function openLink(url) {

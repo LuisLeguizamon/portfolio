@@ -69,6 +69,19 @@
         display: none;
     }
 }
+/* Projects */
+.projects-box {
+    border: solid 1px #5C5C5C;
+    margin: 5px;
+    max-width: 400px;
+    width: 200px;
+    padding: 5px;
+    overflow: auto;
+    text-align: center;
+}
+.projects-link:hover{
+    color:grey !important;
+}
 /* Spinner */
 .spinner-custom {
     align-items: center;

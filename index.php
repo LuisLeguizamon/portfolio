@@ -84,15 +84,15 @@
             <h3>Featured Projects</h3>
 
             <h5 class="mt-3">Open Source Projects</h5>
-            <ul class="list-group">
+            <div class="d-inline-block">
                 <?php foreach ($openSourceProjects as $key => $project) { ?>
-                    <li class="list-group-item">
-                        <a class="link-underline link-underline-opacity-0" href="<?php echo $project ?>">
+                    <div class="projects-box">
+                        <a class="projects-link link-underline link-underline-opacity-0 text-dark" href="<?php echo $project ?>" target="_blank">
                             <?php echo $key ?>
                         </a>
-                    </li>
+                    </div>
                 <?php } ?>
-            </ul>
+            </div>
             <h5 class="mt-5">Commercial Projects</h5>
             <ul class="list-group">
                 <?php foreach ($comercialProjects as $key => $project) { ?>

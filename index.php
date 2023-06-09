@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css?v=2.1">
+    <link rel="stylesheet" href="style.css?v=2.2">
 </head>
 
 <body>
@@ -143,7 +143,7 @@
     </div>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="script/script.js?v=1.0"></script>
+    <script src="script/script.js?v=2.0"></script>
 </body>
 
 </html>

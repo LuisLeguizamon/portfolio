@@ -82,23 +82,40 @@
     <div id="works" class="container my-5">
         <div class="p-4 text-center bg-body-tertiary rounded-3">
             <h3>Featured Projects</h3>
-
-            <h5 class="mt-3">Open Source Projects</h5>
-            <div class="d-inline-block">
-                <?php foreach ($openSourceProjects as $key => $project) { ?>
-                    <button onclick="openLink('<?php echo $project ?>')" class="projects-btn">
-                        <?php echo $key ?>
-                    </button>
-                <?php } ?>
+            <div class="row mt-5">
+                <div class="col-md-6" style="align-items: center;display:flex;justify-content:center">
+                    <div style="position:relative">
+                        <h1>Open Source</h1>
+                        <h1 style="color:#A9A9A9;text-align:right;">Projects</h1>
+                    </div>
+                </div>
+                <div class="col-md-6" style="border-left:solid 1px #D3D3D3">
+                    <div class="d-inline-block">
+                        <?php foreach ($openSourceProjects as $key => $project) { ?>
+                            <button onclick="openLink('<?php echo $project ?>')" class="projects-btn">
+                                <?php echo $key ?>
+                            </button>
+                        <?php } ?>
+                    </div>
+                </div>
             </div>
-            <h5 class="mt-5">Commercial Projects</h5>
-            <ul class="list-group">
-                <?php foreach ($comercialProjects as $key => $project) { ?>
-                    <li class="list-group-item text-secondary">
-                        <?php echo $project ?>
-                    </li>
-                <?php } ?>
-            </ul>
+            <div class="row mt-5">
+                <div class="col-md-6" style="align-items: center;display:flex;justify-content:center">
+                    <div style="position:relative">
+                        <h1>Commercial</h1>
+                        <h1 style="color:#A9A9A9;text-align:right;">Projects</h1>
+                    </div>
+                </div>
+                <div class="col-md-6" style="border-left:solid 1px #D3D3D3">
+                    <ul>
+                        <?php foreach ($comercialProjects as $key => $project) { ?>
+                            <li class="list-group-item text-secondary" style="text-align: left;">
+                                <?php echo $project ?>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 

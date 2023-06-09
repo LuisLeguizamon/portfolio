@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   let spinnerSection = document.getElementById("spinnerSection");
   spinnerSection.remove();
 

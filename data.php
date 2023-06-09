@@ -2,19 +2,26 @@
 $openSourceProjects = [
     'Task Manager' => 'https://taskmanager.zentcode.com',
     'Video Courses' => 'https://courses.zentcode.com/',
-    'Mailgun Logs' => 'https://github.com/zentcodepy/mailgun-logs-by-domain'
+    'Mailgun Logs' => 'https://github.com/zentcodepy/mailgun-logs-by-domain',
+    'Subscription Manager' => 'https://github.com/zentcodepy/subscriptions-manager-backend'
 ];
 
 $comercialProjects = [
     'Billing System for a Sport Facility',
     'Claims Management System',
+    'Court Booking mobile App',
+    'CrossFit gym mobile App',
     'ERP SaaS',
+    'Event Venue Management',
     'Gym Management',
     'Integration with Facial Detection Access System',
     'Integration with Payment Gateway (Bancard)',
     'Land Management',
+    'Project Management',
     'Real Estate Website',
+    'Real Estate Management Platform',
     'Request for Quotation (RFQ)',
+    'School mobile App',
     'Shopping mall mobile App',
     'Voucher System',
     'Web platform for Gym Trainers',

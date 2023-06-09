@@ -74,6 +74,9 @@
     }
 }
 /* Projects */
+.projects-border{
+    border-left:solid 1px #D3D3D3;
+}
 .projects-btn {
     border: solid 1px #5C5C5C;
     background-color: transparent;
@@ -88,6 +91,15 @@
 .projects-btn:hover{
     background-color: black;
     color: white;
+}
+.projects-title{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.projects-title-secondary{
+    color:#A9A9A9;
+    text-align:right;
 }
 /* Spinner */
 .spinner-custom {

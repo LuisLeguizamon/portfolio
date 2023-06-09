@@ -62,7 +62,6 @@
             <h3>Main Tech Stack</h3>
             <div class="stack-row text-secondary">
                 <?php foreach ($techStack as $key => $stack) { ?>
-                    <!-- <span class="bg-primary-subtle px-2 py-1 text-primary-emphasis mx-2 rounded-pill"> -->
                     <div class="stack-icon-box">
                         <?php echo $stack ?>
                         <?php echo $key ?>
@@ -83,13 +82,13 @@
         <div class="p-4 text-center bg-body-tertiary rounded-3">
             <h3>Featured Projects</h3>
             <div class="row mt-5">
-                <div class="col-md-6" style="align-items: center;display:flex;justify-content:center">
-                    <div style="position:relative">
+                <div class="col-md-6 projects-title">
+                    <div class="position-relative">
                         <h1>Open Source</h1>
-                        <h1 style="color:#A9A9A9;text-align:right;">Projects</h1>
+                        <h1 class="projects-title-secondary">Projects</h1>
                     </div>
                 </div>
-                <div class="col-md-6" style="border-left:solid 1px #D3D3D3">
+                <div class="col-md-6 projects-border">
                     <div class="d-inline-block">
                         <?php foreach ($openSourceProjects as $key => $project) { ?>
                             <button onclick="openLink('<?php echo $project ?>')" class="projects-btn">
@@ -100,13 +99,13 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-md-6" style="align-items: center;display:flex;justify-content:center">
-                    <div style="position:relative">
+                <div class="col-md-6 projects-title">
+                    <div class="position-relative">
                         <h1>Commercial</h1>
-                        <h1 style="color:#A9A9A9;text-align:right;">Projects</h1>
+                        <h1 class="projects-title-secondary">Projects</h1>
                     </div>
                 </div>
-                <div class="col-md-6" style="border-left:solid 1px #D3D3D3">
+                <div class="col-md-6 projects-border">
                     <ul>
                         <?php foreach ($comercialProjects as $key => $project) { ?>
                             <li class="list-group-item text-secondary" style="text-align: left;">

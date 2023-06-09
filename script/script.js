@@ -21,4 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (opacity >= 1) {
       clearInterval(fadeIn);
     }
-})
+});
+
+function openLink(url) {
+  window.open(url, '_blank');
+}

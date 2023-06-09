@@ -70,8 +70,9 @@
     }
 }
 /* Projects */
-.projects-box {
+.projects-btn {
     border: solid 1px #5C5C5C;
+    background-color: transparent;
     margin: 5px;
     max-width: 400px;
     width: 200px;
@@ -79,8 +80,9 @@
     overflow: auto;
     text-align: center;
 }
-.projects-link:hover{
-    color:grey !important;
+.projects-btn:hover{
+    background-color: black;
+    color: white;
 }
 /* Spinner */
 .spinner-custom {

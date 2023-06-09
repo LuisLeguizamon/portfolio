@@ -86,11 +86,9 @@
             <h5 class="mt-3">Open Source Projects</h5>
             <div class="d-inline-block">
                 <?php foreach ($openSourceProjects as $key => $project) { ?>
-                    <div class="projects-box">
-                        <a class="projects-link link-underline link-underline-opacity-0 text-dark" href="<?php echo $project ?>" target="_blank">
-                            <?php echo $key ?>
-                        </a>
-                    </div>
+                    <button onclick="openLink('<?php echo $project ?>')" class="projects-btn">
+                        <?php echo $key ?>
+                    </button>
                 <?php } ?>
             </div>
             <h5 class="mt-5">Commercial Projects</h5>

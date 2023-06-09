@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css?v=2.2">
+    <link rel="stylesheet" href="style.css?v=2.3">
 </head>
 
 <body>
@@ -45,11 +45,11 @@
     <!-- Presentation -->
     <section id="home" class="my-5 row">
         <div class="col-md-6 px-5 text-left banner-left">
-            <h1 class="fw-bold" style="font-size:3.5rem">Luis Leguizamón</h1>
+            <h1 class="fw-bold banner-title">Luis Leguizamón</h1>
             <p class="text-secondary">Software Developer with +4 years of experience, specialize in web solutions.</p>
             <div class="mt-3">
                 <a id="bannerContactBtn" href="#contact" class="banner-btn btn">Contact Me</a>
-                <a id= "bannerSecondaryBtn" href="#works" class="banner-secondary-btn btn" style="margin-left:15px">Projects</a>
+                <a id= "bannerSecondaryBtn" href="#projects" class="banner-secondary-btn btn">Projects</a>
             </div>
         </div>
         <div class="col-md-6 text-center banner-right" id="bannerImg">

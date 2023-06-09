@@ -38,10 +38,14 @@
     border: solid black 1px;
     border-radius: 1px;
 }
+.banner-title{
+    font-size: 3.5rem;
+}
 .banner-secondary-btn{
     background-color: white;
     border: solid black 1px;
     border-radius: 1px;
+    margin-left: 15px;
 }
 .banner-secondary-btn:hover{
     background-color: black;

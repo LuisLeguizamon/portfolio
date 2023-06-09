@@ -43,7 +43,7 @@
     </nav>
 
     <!-- Presentation -->
-    <div id="home" class="my-5 row">
+    <section id="home" class="my-5 row">
         <div class="col-md-6 px-5 text-left banner-left">
             <h1 class="fw-bold" style="font-size:3.5rem">Luis Leguizamón</h1>
             <p class="text-secondary">Software Developer with +4 years of experience, specialize in web solutions.</p>
@@ -54,10 +54,10 @@
         </div>
         <div class="col-md-6 text-center banner-right" id="bannerImg">
         </div>
-    </div>
+    </section>
 
     <!-- Tech Stack -->
-    <div id="tech-stack" class="container my-5">
+    <section id="tech-stack" class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
             <h3>Main Tech Stack</h3>
             <div class="stack-row text-secondary">
@@ -76,10 +76,10 @@
                 <?php } ?>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Works -->
-    <div id="works" class="container my-5">
+    <section id="works" class="container my-5">
         <div class="p-4 text-center bg-body-tertiary rounded-3">
             <h3>Featured Projects</h3>
             <div class="row mt-5">
@@ -117,10 +117,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Contact -->
-    <div id="contact" class="container my-5">
+    <section id="contact" class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
             <h3>Contact Me</h3>
             <a class="text-secondary link-underline link-underline-opacity-0">lleguizamonl@gmail.com</a>
@@ -140,7 +140,7 @@
             </div>
             <p class="text-secondary">Developed by <span class="text-dark">Luis Leguizamón</span></p>
         </div>
-    </div>
+    </section>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="script/script.js?v=2.2"></script>

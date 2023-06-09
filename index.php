@@ -143,7 +143,7 @@
     </div>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="script/script.js?v=2.0"></script>
+    <script src="script/script.js?v=2.1"></script>
 </body>
 
 </html>

@@ -32,7 +32,7 @@
                         <a class="nav-link" aria-current="page" href="#tech-stack">Tech Stack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#works">Projects</a>
+                        <a class="nav-link" aria-current="page" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#contact">Contact</a>
@@ -78,8 +78,8 @@
         </div>
     </section>
 
-    <!-- Works -->
-    <section id="works" class="container my-5">
+    <!-- Projects -->
+    <section id="projects" class="container my-5">
         <div class="p-4 text-center bg-body-tertiary rounded-3">
             <h3>Featured Projects</h3>
             <div class="row mt-5">

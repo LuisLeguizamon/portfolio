@@ -12,9 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
     spinnerSection.remove();
 
     let bannerImg = document.getElementById("bannerImg");
+    let bannerContactBtn = document.getElementById("bannerContactBtn");
+    let bannerSecondaryBtn = document.getElementById("bannerSecondaryBtn");
     let opacity = 0;
     let fadeIn = setInterval(() => {
-    bannerImg.style.opacity = opacity;
+      bannerImg.style.opacity = opacity;
+      bannerContactBtn.style.opacity = opacity;
+      bannerSecondaryBtn.style.opacity = opacity;
       opacity += 0.01;
       if (opacity >= 1) {
         clearInterval(fadeIn);

@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
     bannerContactBtn.style.opacity = opacity;
     bannerSecondaryBtn.style.opacity = opacity;
     opacity += 0.01;
-    // Transform
+    // Scale
     bannerImg.style.transform = `scale(${scale})`;
     scale += 0.002;
     if (opacity >= 1) {

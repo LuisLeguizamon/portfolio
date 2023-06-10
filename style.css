@@ -67,6 +67,7 @@
 }
 #bannerImg{
     opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
 }
 @media only screen and (max-width: 767px) {
     .banner-left{

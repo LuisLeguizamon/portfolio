@@ -35,16 +35,24 @@ function openLink(url) {
   window.open(url, '_blank');
 }
 
-// Change color of laravel logo when mouse is over
-var logoLaravel = document.getElementById('logoLaravel');
-// Access the <g> element
-var gLogoLaravel = logoLaravel.querySelector('g');
+// Change color of stack logo when mouse is over it
+const svgLogos = [
+  { key: "logoLaravel", value: "#f9322c" },
+  { key: "logoVue", value: "#41b883" },
+  { key: "logoPhp", value: "#878EB7" },
+  { key: "logoJavascript", value: "#f7df1e" },
+];
 
-logoLaravel.addEventListener('mouseover', function() {
-  gLogoLaravel.style.transition = "fill 0.3s ease";
-  gLogoLaravel.setAttribute("fill", "#f9322c");
-});
+svgLogos.forEach((element) => {
+  var svgLogo = document.getElementById(element.key);
+  var childElementToFill = svgLogo.getElementsByClassName("customFill")[0];
 
-logoLaravel.addEventListener('mouseout', function() {
-  gLogoLaravel.setAttribute("fill", "#00000");
+  svgLogo.addEventListener("mouseover", function () {
+    childElementToFill.style.transition = "fill 0.3s ease";
+    childElementToFill.setAttribute("fill", element.value);
+  });
+
+  svgLogo.addEventListener("mouseout", function () {
+    childElementToFill.setAttribute("fill", "#00000");
+  });
 });

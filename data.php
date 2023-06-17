@@ -39,7 +39,7 @@ $techStack = [
         </g>
     </svg>',
 
-    'Vue JS' =>
+    'VueJS' =>
     '<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" version="1.1" viewBox="0 0 261.76 226.69">
         <g transform="matrix(1.3333 0 0 -1.3333 -76.311 313.34)">
             <g transform="translate(178.06 235.01)">

@@ -34,3 +34,17 @@ window.onscroll = function (event) {
 function openLink(url) {
   window.open(url, '_blank');
 }
+
+// Change color of laravel logo when mouse is over
+var logoLaravel = document.getElementById('logoLaravel');
+// Access the <g> element
+var gLogoLaravel = logoLaravel.querySelector('g');
+
+logoLaravel.addEventListener('mouseover', function() {
+  gLogoLaravel.style.transition = "fill 0.3s ease";
+  gLogoLaravel.setAttribute("fill", "#f9322c");
+});
+
+logoLaravel.addEventListener('mouseout', function() {
+  gLogoLaravel.setAttribute("fill", "#00000");
+});

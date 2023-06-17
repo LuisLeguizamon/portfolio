@@ -80,6 +80,7 @@ $tools = [
     'jQuery',
     'HTML',
     'Inertia JS',
+    'Ionic',
     'Linux',
     'MS SQL Server',
     'MySQL',

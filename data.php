@@ -45,6 +45,7 @@ $tools = [
     'CSS',
     'C#',
     'Digital Ocean',
+    'Docker',
     'Forge',
     'Git',
     'Github',
@@ -52,6 +53,7 @@ $tools = [
     'HTML',
     'Inertia JS',
     'Linux',
+    'Node',
     'NPM',
     'NGINX',
     'PHPUnit',
@@ -60,6 +62,7 @@ $tools = [
     'SOLID',
     'Tailwind CSS',
     'Trello',
+    'TypeScript',
     'Ubuntu',
     'Vultr'
 ];

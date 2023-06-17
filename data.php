@@ -90,6 +90,7 @@ $tools = [
     'PHPUnit',
     'Postman',
     'React JS',
+    'RESTful API',
     'SOLID',
     'Tailwind CSS',
     'Trello',

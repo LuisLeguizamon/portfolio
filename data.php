@@ -81,6 +81,8 @@ $tools = [
     'HTML',
     'Inertia JS',
     'Linux',
+    'MS SQL Server',
+    'MySQL',
     'Node',
     'NPM',
     'NGINX',

@@ -3,7 +3,10 @@
 <html lang="en">
 
 <head>
-    <title>Portfolio - Luis Leguizamón</title>
+    <title>Software Developer - Luis Leguizamón</title>
+    <meta name="description" content="Full Stack Developer - Portfolio">
+    <meta property="og:title" content="Software Developer - Luis Leguizamón">
+    <meta property="og:title" content="Full Stack Developer - Portfolio">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -138,7 +138,20 @@
 }
 
 /* Contact */
-.btn-contact{
+.contact-btn{
     border-radius: 1px;
     width: 120px;
+}
+.contact-mail-btn{
+    color: black;
+    border: solid black 1px;
+    box-shadow: 0 0 10px #999;
+    padding: 12px;
+    text-align: center;
+    transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+.contact-mail-btn:hover{
+    border: solid #999 1px;
+    box-shadow: 0 0 20px #777;
+    transition: border 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }

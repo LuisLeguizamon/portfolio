@@ -3,7 +3,9 @@ $openSourceProjects = [
     'Task Manager' => 'https://taskmanager.zentcode.com',
     'Video Courses' => 'https://courses.zentcode.com/',
     'Mailgun Logs' => 'https://github.com/zentcodepy/mailgun-logs-by-domain',
-    'Subscription Manager' => 'https://github.com/zentcodepy/subscriptions-manager-backend'
+    'Whatsapp Widget Plugin' => 'https://github.com/LuisLeguizamon/whatsapp-widget-plugin',
+    'Subscription Backend' => 'https://github.com/zentcodepy/subscriptions-manager-backend',
+    'Subscription Frontend' => 'https://github.com/zentcodepy/subscriptions-manager-frontend',
 ];
 
 $comercialProjects = [

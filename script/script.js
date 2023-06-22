@@ -31,6 +31,17 @@ window.onscroll = function (event) {
     }
 }
 
+// Read More
+function readMore(event) {
+  console.log(event.target)
+  let readMoreBtn = event.target;
+  readMoreBtn.style.transition = "opacity 0.3s ease-in-out";
+  readMoreBtn.style.opacity = "0";
+  readMoreBtn.style.display = "none";
+  let readMoreText = document.getElementById("bannerReadMoreText");
+  readMoreText.style.opacity = "100";
+}
+
 function openLink(url) {
   window.open(url, '_blank');
 }

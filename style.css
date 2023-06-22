@@ -1,3 +1,10 @@
+/* Common */
+.cursor-pointer{
+    cursor: pointer;
+}
+.ml-15{
+    margin-left: 15px;
+}
 /* Navbar */
 @media only screen and (max-width: 767px) {
     .navbar-nav{
@@ -49,7 +56,6 @@
     background-color: white;
     border: solid black 1px;
     border-radius: 1px;
-    margin-left: 15px;
 }
 .banner-secondary-btn:hover{
     background-color: black;
@@ -69,6 +75,10 @@
 #bannerImg{
     opacity: 0;
     transition: opacity 0.5s, transform 0.5s;
+}
+#bannerReadMoreText{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 @media only screen and (max-width: 767px) {
     .banner-left{

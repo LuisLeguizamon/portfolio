@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css?v=2.9">
+    <link rel="stylesheet" href="style.css?v=3.0">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P5B7JBXXZ3"></script>
     <script>
@@ -84,7 +84,7 @@
 
     <!-- Tech Stack -->
     <section id="tech-stack" class="container my-5">
-        <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <div class="animation p-5 text-center bg-body-tertiary rounded-3">
             <h3>Main Tech Stack</h3>
             <div class="stack-row text-secondary">
                 <?php foreach ($techStack as $key => $stack) { ?>
@@ -105,7 +105,7 @@
 
     <!-- Projects -->
     <section id="projects" class="container my-5">
-        <div class="p-4 text-center bg-body-tertiary rounded-3">
+        <div class="animation p-4 text-center bg-body-tertiary rounded-3">
             <h3>Featured Projects</h3>
             <div class="row mt-5">
                 <div class="col-md-6 projects-title">
@@ -146,7 +146,7 @@
 
     <!-- Contact -->
     <section id="contact" class="container my-5">
-        <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <div class="animation p-5 text-center bg-body-tertiary rounded-3">
             <h3>Contact Me</h3>
             <div class="mt-3">
                 <a class="contact-btn contact-mail-btn link-underline link-underline-opacity-0">lleguizamonl@gmail.com</a>
@@ -170,7 +170,7 @@
     </section>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="script/script.js?v=2.4"></script>
+    <script src="script/script.js?v=2.5"></script>
 </body>
 
 </html>

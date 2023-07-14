@@ -67,3 +67,25 @@ svgLogos.forEach((element) => {
     childElementToFill.setAttribute("fill", "#00000");
   });
 });
+
+// Animation
+let elementsToAnimate = document.querySelectorAll('.animation');
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("scroll-animation");
+      } else {
+        // entry.target.classList.remove("scroll-animation");
+      }
+    });
+  },
+  {
+    threshold: 0.5,
+  }
+);
+
+elementsToAnimate.forEach(element => {
+  observer.observe(element);
+});

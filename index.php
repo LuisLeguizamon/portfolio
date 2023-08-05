@@ -1,11 +1,4 @@
-<?php
-use data\Project;
-
-include('data.php');
-include('data/Project.php');
-
-$project = new Project();
-?>
+<?php include('data.php');?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -94,7 +87,7 @@ $project = new Project();
         <div class="animation p-5 text-center bg-body-tertiary rounded-3">
             <h3>Main Tech Stack</h3>
             <div class="stack-row text-secondary">
-                <?php foreach ($techStack as $key => $stack) { ?>
+                <?php foreach ($techStack->techStack as $key => $stack) { ?>
                     <div class="stack-icon-box">
                         <?php echo $stack ?>
                         <?php echo $key ?>
@@ -103,8 +96,8 @@ $project = new Project();
             </div>
             <h5 class="mt-5">Tools and other technologies</h5>
             <div class="text-secondary">
-                <?php foreach ($tools as $tool) { ?>
-                    <?php echo $tool;?> |
+                <?php foreach ($tool->tools as $toolItem) { ?>
+                    <?php echo $toolItem;?> |
                 <?php } ?>
             </div>
         </div>

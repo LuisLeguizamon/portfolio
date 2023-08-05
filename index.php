@@ -1,4 +1,4 @@
-<?php include('data.php');?>
+<?php include('data/data.php');?>
 <!DOCTYPE html>
 <html lang="en">
 

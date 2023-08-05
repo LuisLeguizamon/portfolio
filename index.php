@@ -1,4 +1,11 @@
-<?php include('data.php') ?>
+<?php
+use data\Project;
+
+include('data.php');
+include('data/Project.php');
+
+$project = new Project();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -116,8 +123,8 @@
                 </div>
                 <div class="col-md-6 projects-border">
                     <div class="d-inline-block">
-                        <?php foreach ($openSourceProjects as $key => $project) { ?>
-                            <button onclick="openLink('<?php echo $project ?>')" class="projects-btn">
+                        <?php foreach ($project->openSourceProjects as $key => $openProject) { ?>
+                            <button onclick="openLink('<?php echo $openProject ?>')" class="projects-btn">
                                 <?php echo $key ?>
                             </button>
                         <?php } ?>
@@ -133,9 +140,9 @@
                 </div>
                 <div class="col-md-6 projects-border">
                     <ul>
-                        <?php foreach ($comercialProjects as $key => $project) { ?>
+                        <?php foreach ($project->commercialProjects as $key => $commercialProject) { ?>
                             <li class="list-group-item text-secondary" style="text-align: left;">
-                                <?php echo $project ?>
+                                <?php echo $commercialProject ?>
                             </li>
                         <?php } ?>
                     </ul>

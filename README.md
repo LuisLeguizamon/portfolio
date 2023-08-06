@@ -6,6 +6,7 @@
 
 ### Development 
 * npm install
+* composer install
 * run a local server. Example: php -S localhost:8000
 
 ### Built With

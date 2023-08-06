@@ -18,8 +18,8 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
-        gtag('config', 'G-P5B7JBXXZ3');
+        var gtagCode = "<?php echo $gtagCode ?>";
+        gtag('config', gtagCode);
     </script>
 </head>
 

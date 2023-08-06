@@ -14,4 +14,11 @@ $project = new Project();
 $techStack = new TechStack();
 $tool = new Tool();
 $contact = new Contact();
+
+include_once($_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php');
+
+$dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
+$dotenv->safeLoad();
+
+$gtagCode = $_ENV['GOOGLE_ANALYTICS_GTAG_CODE'];
 ?>

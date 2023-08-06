@@ -17,6 +17,6 @@ $contact = new Contact();
 
 include_once($_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php');
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
 $dotenv->safeLoad();
 ?>

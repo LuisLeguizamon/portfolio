@@ -1,16 +1,24 @@
 <?php
 
 use data\Contact;
-use data\Project;
+use data\Project\CommercialProject;
+use data\Project\OpenSourceProject;
 use data\TechStack;
 use data\Tool;
 
-include('data/Project.php');
+include('data/Project/ProjectInterface.php');
+include('data/Project/CommercialProject.php');
+include('data/Project/OpenSourceProject.php');
 include('data/TechStack.php');
 include('data/Tool.php');
 include('data/Contact.php');
 
-$project = new Project();
+$commercialProject = new CommercialProject();
+$openSourceProject = new OpenSourceProject();
+
+$commercialProjects = $commercialProject->getProjects();
+$openSourceProjects = $openSourceProject->getProjects();
+
 $techStack = new TechStack();
 $tool = new Tool();
 $contact = new Contact();

@@ -116,7 +116,7 @@
                 </div>
                 <div class="col-md-6 projects-border">
                     <div class="d-inline-block">
-                        <?php foreach ($project->openSourceProjects as $key => $openProject) { ?>
+                        <?php foreach ($openSourceProjects as $key => $openProject) { ?>
                             <button onclick="openLink('<?php echo $openProject ?>')" class="projects-btn">
                                 <?php echo $key ?>
                             </button>
@@ -133,7 +133,7 @@
                 </div>
                 <div class="col-md-6 projects-border">
                     <ul>
-                        <?php foreach ($project->commercialProjects as $key => $commercialProject) { ?>
+                        <?php foreach ($commercialProjects as $key => $commercialProject) { ?>
                             <li class="list-group-item text-secondary" style="text-align: left;">
                                 <?php echo $commercialProject ?>
                             </li>

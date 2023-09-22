@@ -1,4 +1,4 @@
-<?php include('data/data.php');?>
+<?php include('./src/data/DataSetup.php');?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -178,7 +178,7 @@
     </section>
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="script/script.js?v=2.5"></script>
+    <script src="src/script/script.js?v=2.5"></script>
 </body>
 
 </html>

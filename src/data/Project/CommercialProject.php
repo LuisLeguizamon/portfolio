@@ -1,6 +1,8 @@
 <?php
 
-namespace data\Project;
+namespace src\data\Project;
+
+use data\Project\ProjectInterface;
 
 class CommercialProject implements ProjectInterface
 {

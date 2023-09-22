@@ -14,6 +14,7 @@ class Tool
         'C#',
         'Digital Ocean',
         'Docker',
+        'Filament',
         'Forge',
         'Git',
         'Github',
@@ -22,6 +23,7 @@ class Tool
         'Inertia JS',
         'Ionic',
         'Linux',
+        'Livewire',
         'MS SQL Server',
         'MySQL',
         'Node',
@@ -35,7 +37,7 @@ class Tool
         'Tailwind CSS',
         'Trello',
         'TypeScript',
-        'Ubuntu',
+        'Vitest',
         'Vultr',
         'Wordpress'
     ];

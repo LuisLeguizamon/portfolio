@@ -10,7 +10,7 @@ class CommercialProject implements ProjectInterface
     {
         $commercialProjects = [
             'Billing System for a Sport Facility',
-            'Buildings Administration Real Estate',
+            'Buildings Administration',
             'Claims Management System',
             'Court Booking mobile App',
             'CrossFit gym mobile App',
@@ -26,7 +26,6 @@ class CommercialProject implements ProjectInterface
             'LEMP installation on linux servers',
             'Project Management',
             'Real Estate Website',
-            'Real Estate Management Platform',
             'Request for Quotation (RFQ) System',
             'School mobile App',
             'Shopping mall mobile App',

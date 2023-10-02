@@ -10,6 +10,7 @@ class CommercialProject implements ProjectInterface
     {
         $commercialProjects = [
             'Billing System for a Sport Facility',
+            'Buildings Administration Real Estate',
             'Claims Management System',
             'Court Booking mobile App',
             'CrossFit gym mobile App',

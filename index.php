@@ -105,7 +105,7 @@
 
     <!-- Projects -->
     <section id="projects" class="container my-5">
-        <div class="animation p-4 text-center bg-body-tertiary rounded-3">
+        <div class="p-4 text-center bg-body-tertiary rounded-3">
             <h3>Featured Projects</h3>
             <div class="row mt-5">
                 <div class="col-md-6 projects-title">

@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css?v=3.0">
+    <link rel="stylesheet" href="style.css?v=4.0">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P5B7JBXXZ3"></script>
     <script>
@@ -78,13 +78,13 @@
 
             </div>
         </div>
-        <div class="col-md-6 text-center banner-right" id="bannerImg">
+        <div class="col-md-6 text-center banner-right">
         </div>
     </section>
 
     <!-- Tech Stack -->
     <section id="tech-stack" class="container my-5">
-        <div class="animation p-5 text-center bg-body-tertiary rounded-3">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
             <h3>Main Tech Stack</h3>
             <div class="stack-row text-secondary">
                 <?php foreach ($techStack->techStack as $key => $stack) { ?>
